@@ -1,3 +1,42 @@
-@charset "utf8";
+@charset "utf-8";
 
 /* 一般情况下,所有页面的根样式都会些在这里面 */
+
+body,
+div,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 需要对图片,filedset清零 */
+
+img,
+fieldset {
+    border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+
+/* 样式重置，不同浏览器默认样式不一致 */
