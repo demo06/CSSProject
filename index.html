@@ -30,19 +30,26 @@
             <!-- 用户盒子 -->
             <div class="user-nav ">
                 <ul class="clearfix">
-                    <li class="msg-warp">
+                    <li class="msg-warp  user-nav-item">
                         <!-- 消息框 -->
                         <a href="#" class="msg">
                             <span class="msg-num">2</span>
                         </a>
                     </li>
-                    <li class="user">
+                    <li class="user user-nav-item">
                         <!-- 用户头像和用户名 -->
                         <a href="#"><img src="./img/avater.png" class="avatar" alt="head"></a>
-                        <a href="#" class="username">张三<i class="triangle-down icon"></i>
-                        </a>
+                        <div class="username">张三
+                            <i class="triangle-down icon"></i>
+                            <ul class="user-menu-cover  triangle-up-s">
+                                <li><a href="#">我的资源</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">个人资料</a></li>
+                                <li><a href="#">退出登录</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
+                    <li class="user-nav-item">
                         <!-- 选择教师端 -->
                         <a href="#">教师端 <i class="triangle-down  icon"></i></a>
                     </li>
@@ -82,7 +89,9 @@
     <!--  ===> E 网站头部区域 -->
 
     <!-- ===> S 网站banner区域 -->
-    <div class="h-banner">banner</div>
+    <div class="h-banner">
+        <div class="box triangle-up-s"></div>
+    </div>
     <!-- ===> E 网站banner区域 -->
 
     <!-- ===> S 网站主要列表区域 -->

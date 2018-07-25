@@ -14,6 +14,34 @@
     height: 0;
 }
 
+
+/* 单三角 */
+
+
+/* 利用两个三角折叠完成 */
+
+.triangle-up-s {
+    position: relative;
+}
+
+.triangle-up-s::before,
+.triangle-up-s::after {
+    content: "";
+    border: 6px solid #ccc;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent #ccc transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+}
+
+.triangle-up-s::after {
+    border-color: transparent transparent #fff;
+    top: -10px;
+}
+
 .clearfix::befor,
 .clearfix::after {
     content: "";

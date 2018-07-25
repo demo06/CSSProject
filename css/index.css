@@ -133,7 +133,7 @@ a {
     padding-top: 5px;
 }
 
-.h-header .user-nav li {
+.h-header .user-nav .user-nav-item {
     float: left;
     height: 42px;
     line-height: 42px;
@@ -149,14 +149,52 @@ a {
     border-radius: 50%;
 }
 
+.h-header .user-nav .username {
+    display: inline-block;
+}
+
+.h-header .user-nav .user {
+    position: relative;
+}
+
+.h-header .user-nav .user:hover .user-menu-cover {
+    display: block;
+}
+
+
+/* 设置弹出的用户的菜单 */
+
+.h-header .user-nav .user-menu-cover {
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    display: none;
+}
+
+.user-nav .user-menu-cover li {
+    display: block;
+    width: 123px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.user-nav .user-menu-cover li:hover {
+    background-color: #ccc;
+}
+
+.user-nav .user-menu-cover li:hover {
+    background-color: #ccc;
+}
+
 
 /* 设置消息li */
 
 .h-header .user-nav .msg-warp {
-    width: 34px;
-    height: 40px;
     position: relative;
     top: 7px;
+    width: 34px;
+    height: 40px;
     background: url(../img/spite.png) left top no-repeat;
 }
 
@@ -196,6 +234,12 @@ a {
     height: 60px;
     width: 1190px;
     border: 1px solid #000;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
 }
 
 
