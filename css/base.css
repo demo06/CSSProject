@@ -13,3 +13,16 @@
     width: 0;
     height: 0;
 }
+
+.clearfix::befor,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
