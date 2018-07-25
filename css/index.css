@@ -20,7 +20,6 @@ a {
     width: 1190px;
     height: 74px;
     padding-top: 24px;
-    border: 1px solid #000;
 }
 
 
@@ -56,7 +55,7 @@ a {
 
 /* 设置放大镜的样式 */
 
-.top-nav .search a.icon-search {
+.top-nav .search .icon-search {
     display: inline-block;
     position: absolute;
     /* right: 28px; */
@@ -70,8 +69,35 @@ a {
     /* top: 5px; */
 }
 
-.h-header .search a.cursor-sel {
+
+/* 设置弹出课程选择层 */
+
+.h-header .search .course-menu {
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    display: none;
+}
+
+.h-header .course-menu li {
+    border: 1px solid #e0e0e0;
+    width: 66px;
+}
+
+.h-header .course-menu li:hover {
+    background-color: #ccc;
+}
+
+
+/* 当鼠标滑动到课程上的时候,弹出显示的选择层 */
+
+.h-header .search .cursor-sel:hover .course-menu {
+    display: block;
+}
+
+.h-header .search .cursor-sel {
     display: inline-block;
+    position: relative;
     width: 66px;
     height: 30px;
     line-height: 30px;
@@ -95,7 +121,7 @@ a {
     margin: 14px 4px;
 }
 
-.search a.cursor-sel,
+.search .cursor-sel,
 .search input {
     float: left;
 }
