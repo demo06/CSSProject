@@ -129,6 +129,62 @@ a {
 
 /* S        用户导航区域 */
 
+.h-header .user-nav {
+    padding-top: 5px;
+}
+
+.h-header .user-nav li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 11px 0 14px;
+}
+
+
+/* 设置头像 */
+
+.h-header .user-nav .avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+
+/* 设置消息li */
+
+.h-header .user-nav .msg-warp {
+    width: 34px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+    background: url(../img/spite.png) left top no-repeat;
+}
+
+
+/* 设置消息数字 */
+
+.h-header .user-nav .msg {
+    position: relative;
+    top: -16px;
+    right: -15px;
+    display: inline-block;
+    width: 34px;
+    height: 40px;
+    line-height: 20px;
+    padding-left: 7px;
+    background: url(../img/spite.png) left bottom no-repeat;
+}
+
+.h-header .user-nav .msg .msg-num {
+    color: #fff;
+}
+
+.h-header .user-nav i.icon {
+    display: inline-block;
+    float: right;
+    margin: 20px 0 0 5px;
+}
+
 
 /* E        用户导航区域 */
 
