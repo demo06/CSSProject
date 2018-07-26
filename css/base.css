@@ -54,3 +54,11 @@
     line-height: 0;
     visibility: hidden;
 }
+
+
+/* 弹出层的基类 */
+
+.cover {
+    /* 设置弹出层的背景为白色 */
+    background-color: #fff;
+}

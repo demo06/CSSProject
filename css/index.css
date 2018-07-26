@@ -244,6 +244,23 @@ a {
 }
 
 
+/* 设置背景右侧的红色div */
+
+.site-nav .bg-red-wrap {
+    position: relative;
+    margin-left: 1190px;
+}
+
+.site-nav .bg-red-wrap .bg-red {
+    position: absolute;
+    width: 50%;
+    height: 60px;
+    right: 0;
+    top: 0;
+    background-color: #e7594d;
+}
+
+
 /* 版心盒子 */
 
 .site-nav .site-nav-wrap {
