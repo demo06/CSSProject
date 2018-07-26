@@ -159,6 +159,7 @@ a {
 
 .h-header .user-nav .user:hover .user-menu-cover {
     display: block;
+    z-index: 99999;
 }
 
 
@@ -195,7 +196,7 @@ a {
     top: 7px;
     width: 34px;
     height: 40px;
-    background: url(../img/spite.png) left top no-repeat;
+    background: url(../img/sprite.png) left top no-repeat;
 }
 
 
@@ -210,7 +211,7 @@ a {
     height: 40px;
     line-height: 20px;
     padding-left: 7px;
-    background: url(../img/spite.png) left bottom no-repeat;
+    background: url(../img/sprite.png) left bottom no-repeat;
 }
 
 .h-header .user-nav .msg .msg-num {
@@ -322,6 +323,53 @@ a {
 
 
 /* E       主导航区域区域 */
+
+
+/* ======================================================================================= */
+
+
+/*  S      banner区域 */
+
+.h-banner {
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: #61caff;
+}
+
+.h-banner .banner-img {
+    width: 100%;
+}
+
+.h-banner .slide-bar {
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    top: 450px;
+    width: 120px;
+    height: 14px;
+}
+
+.h-banner .slide-bar .slide-btn {
+    float: left;
+}
+
+.h-banner .slide-btn a {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/ico_circle.png) no-repeat -148px 0;
+    margin-right: 15px;
+}
+
+.h-banner .slide-btn a.cur-banner,
+.h-banner .slide-btn a.cur-banner:hover {
+    background: url(../img/ico_circle.png) no-repeat -120px -46px;
+}
+
+
+/*  E      banner区域 */
 
 
 /* ======================================================================================= */
