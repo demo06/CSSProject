@@ -227,20 +227,87 @@ a {
 /* E        用户导航区域 */
 
 
-/* E        搜索框区域 */
+/* E        顶部区域 */
 
-.h-header .site-nav-wrap {
+
+/* ======================================================================================= */
+
+
+/* S       主导航区域区域 */
+
+
+/* 通栏盒子设置背景色 */
+
+.site-nav {
+    background-color: #3598db;
+    font-size: 16px;
+}
+
+
+/* 版心盒子 */
+
+.site-nav .site-nav-wrap {
     margin: 0 auto;
     height: 60px;
     width: 1190px;
-    border: 1px solid #000;
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
+.site-nav li,
+.site-nav a {
+    color: #fff;
 }
+
+
+/* 左侧主导航 */
+
+.site-nav .main-nav {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.site-nav .main-nav .menu-item {
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav .menu-item a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border-radius: 3px;
+}
+
+.site-nav .menu-item a.cur {
+    background-color: #2db0f9;
+}
+
+.site-nav .menu-item a:hover {
+    background-color: #2db0f9;
+}
+
+
+/* 右侧附属导航 */
+
+.site-nav .aside-nav {
+    float: right;
+    background-color: #e7594d;
+    padding-left: 20px;
+}
+
+.site-nav .aside-nav li {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+
+/* E       主导航区域区域 */
+
+
+/* ======================================================================================= */
 
 
 /* ==>E 布局的CSS代码 */
