@@ -220,7 +220,7 @@ a {
 
 .h-header .user-nav i.icon {
     display: inline-block;
-    float: right;
+    /* float: right; */
     margin: 20px 0 0 5px;
 }
 
@@ -390,6 +390,7 @@ a {
 }
 
 .p-module .p-module-head .p-module-title {
+    float: left;
     height: 22px;
     padding-left: 18px;
     line-height: 22px;
@@ -402,6 +403,7 @@ a {
 .p-module .p-module-head .p-module-more {
     float: right;
     line-height: 22px;
+    color: #5da7df;
 }
 
 
