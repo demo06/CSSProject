@@ -374,7 +374,8 @@ a {
 
 /* ==========================================S  产品列表区域============================================= */
 
-.h-main .couser-list {
+.h-main .couser-list,
+.h-main .book-list {
     margin: 0 auto;
     width: 1190px;
     padding-top: 40px;
@@ -407,10 +408,42 @@ a {
 }
 
 
+/* 设置课程列表项 */
+
+.p-module .p-module-body {
+    overflow: hidden;
+}
+
+.p-module .p-module-body .p-list-item {
+    padding-top: 30px;
+    margin: 0 14px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1a1a1a;
+    float: left;
+}
+
+.p-module .p-list-item img {
+    width: 207px;
+    height: 180px;
+    border: 1px solid #e1e1e1;
+}
+
+
 /* ==========================================E  课程列表区域=========================================== */
 
 
-/* ======================================================================================= */
+/* ===========================================S  底部区域======================================== */
+
+.h-footer {
+    margin-top: 200px;
+    background-color: #373a43;
+    height: 141px;
+    text-align: center;
+    color: #e1e1e1;
+    padding-top: 44px;
+    font-size: 16px;
+}
 
 
 /* ======================================================================================= */
